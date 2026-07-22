@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Sanal ortamlar
+.venv/
+venv/
+.venv_*/
+venv_*/
+
+# Model ağırlıkları
+*.pt
+*.onnx
+*.engine
+
+# Eğitim çıktıları
+runs/
+results/
+final_results/
+results_by_dataset/
+training_results/
+*_results/
+
+# Datasetler
+datasets/
+dataset/
+images/
+labels/
+
+# Geçici ve büyük dosyalar
+*.zip
+*.tar
+*.cache
+*.log
+
+# Gizli bilgiler
+.env
+*.key
+*.pem
